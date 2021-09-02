@@ -11,7 +11,7 @@ public class Formulario extends javax.swing.JFrame {
 
    
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         jFormattedTextField1 = new javax.swing.JFormattedTextField();
@@ -279,27 +279,27 @@ public class Formulario extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void btn0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn0ActionPerformed
+    private void btn0ActionPerformed(java.awt.event.ActionEvent evt) {
         txtResultado.setText(txtResultado.getText() + "0");
-    }//GEN-LAST:event_btn0ActionPerformed
+    }
 
-    private void btnDivActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDivActionPerformed
+    private void btnDivActionPerformed(java.awt.event.ActionEvent evt) {
         valor1 = Integer.parseInt(txtResultado.getText());
         txtConta.setText(txtConta.getText() + valor1 + " ÷ ");
         txtResultado.setText("");
         operacao = "div";
-    }//GEN-LAST:event_btnDivActionPerformed
+    }
 
-    private void btnMultActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMultActionPerformed
+    private void btnMultActionPerformed(java.awt.event.ActionEvent evt) {
         valor1 = Integer.parseInt(txtResultado.getText());
         txtConta.setText(txtConta.getText() + valor1 + " × ");
         txtResultado.setText("");
         operacao = "mult";
-    }//GEN-LAST:event_btnMultActionPerformed
+    }
 
-    private void btnIgualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIgualActionPerformed
+    private void btnIgualActionPerformed(java.awt.event.ActionEvent evt) {
         valor2 = Integer.parseInt(txtResultado.getText());
         switch(operacao){
             case "soma":
@@ -315,87 +315,81 @@ public class Formulario extends javax.swing.JFrame {
                 txtResultado.setText(String.valueOf(valor1 / valor2));
                 break;
         }
-    }//GEN-LAST:event_btnIgualActionPerformed
+    }
 
-    private void btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn3ActionPerformed
+    private void btn3ActionPerformed(java.awt.event.ActionEvent evt) {
         txtResultado.setText(txtResultado.getText() + "3");
-    }//GEN-LAST:event_btn3ActionPerformed
+    }
 
-    private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed
+    private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {
         txtResultado.setText(txtResultado.getText() + "2");
-    }//GEN-LAST:event_btn2ActionPerformed
+    }
 
-    private void btnSubActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubActionPerformed
+    private void btnSubActionPerformed(java.awt.event.ActionEvent evt) {
         valor1 = Integer.parseInt(txtResultado.getText());
         txtConta.setText(txtConta.getText() + valor1 + " - ");
         txtResultado.setText("");
         operacao = "sub";
-    }//GEN-LAST:event_btnSubActionPerformed
+    }
 
-    private void btn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn6ActionPerformed
+    private void btn6ActionPerformed(java.awt.event.ActionEvent evt) {
         txtResultado.setText(txtResultado.getText() + "6");
-    }//GEN-LAST:event_btn6ActionPerformed
+    }
 
-    private void txtResultadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtResultadoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtResultadoActionPerformed
+    private void txtResultadoActionPerformed(java.awt.event.ActionEvent evt) {
+        
+    }
 
-    private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
+    private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {
         txtResultado.setText(txtResultado.getText() + "7");
-    }//GEN-LAST:event_btn7ActionPerformed
+    }
 
-    private void btn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn8ActionPerformed
+    private void btn8ActionPerformed(java.awt.event.ActionEvent evt) {
         txtResultado.setText(txtResultado.getText() + "8");
-    }//GEN-LAST:event_btn8ActionPerformed
+    }
 
-    private void btn9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn9ActionPerformed
+    private void btn9ActionPerformed(java.awt.event.ActionEvent evt) {
         txtResultado.setText(txtResultado.getText() + "9");
-    }//GEN-LAST:event_btn9ActionPerformed
+    }
 
-    private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
+    private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {
         txtResultado.setText(txtResultado.getText() + "1");
-    }//GEN-LAST:event_btn1ActionPerformed
+    }
 
-    private void btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn4ActionPerformed
+    private void btn4ActionPerformed(java.awt.event.ActionEvent evt) {
         txtResultado.setText(txtResultado.getText() + "4");
-    }//GEN-LAST:event_btn4ActionPerformed
+    }
 
-    private void btn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn5ActionPerformed
+    private void btn5ActionPerformed(java.awt.event.ActionEvent evt) {
         txtResultado.setText(txtResultado.getText() + "5");
-    }//GEN-LAST:event_btn5ActionPerformed
+    }
 
-    private void btnCEActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCEActionPerformed
+    private void btnCEActionPerformed(java.awt.event.ActionEvent evt) {
         txtResultado.setText("");
         txtConta.setText("");
-    }//GEN-LAST:event_btnCEActionPerformed
+    }
 
-    private void btnSomaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSomaActionPerformed
+    private void btnSomaActionPerformed(java.awt.event.ActionEvent evt) {
         
         valor1 = Integer.parseInt(txtResultado.getText());
         txtConta.setText(txtConta.getText() + valor1 + " + ");
         txtResultado.setText("");
         operacao = "soma";
-    }//GEN-LAST:event_btnSomaActionPerformed
+    }
 
-    private void txtContaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtContaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtContaActionPerformed
+    private void txtContaActionPerformed(java.awt.event.ActionEvent evt) {
+        
+    }
 
-    private void btnCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCActionPerformed
+    private void btnCActionPerformed(java.awt.event.ActionEvent evt) {
         Integer valor1 = null;
         Integer valor2 = null;
         txtResultado.setText("");
-    }//GEN-LAST:event_btnCActionPerformed
+    }
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
+        
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -412,9 +406,9 @@ public class Formulario extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Formulario.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
+       
 
-        /* Create and display the form */
+       
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Formulario().setVisible(true);
@@ -422,7 +416,7 @@ public class Formulario extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    
     private javax.swing.JButton btn0;
     private javax.swing.JButton btn1;
     private javax.swing.JButton btn2;
@@ -444,5 +438,5 @@ public class Formulario extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JTextField txtConta;
     private javax.swing.JTextField txtResultado;
-    // End of variables declaration//GEN-END:variables
+    
 }
